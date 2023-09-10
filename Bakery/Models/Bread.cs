@@ -7,8 +7,8 @@ namespace Bakery.Models
     public int numFreeBread;
     public int Bread1 {get; set;}
     public int Bread2 {get; set;}
-    testBread.Bread1 = 5;
-    testBread.bread2 = 10;
+    // testBread.Bread1 = 5;
+    // testBread.bread2 = 10;
 
     public Bread(int quantity, int numFreeBread)
     {
