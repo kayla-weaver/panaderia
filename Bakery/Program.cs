@@ -8,8 +8,9 @@ namespace Bakery
   {
   static void Main()
     {
-      Bread testBread = new Bread(10,0);
-      Console.WriteLine(testBread.GetType());
+      Bread testBread = new Bread(5);
+      Console.WriteLine($"You asked for: {testBread.Quantity} loaves of bread");
+      Console.WriteLine($"Your total today will be: {testBread.NumFreeBread}");
       testBread.Bread1 = 5;
       testBread.Bread2 = 10;
       Console.WriteLine($"One bread costs: {testBread.Bread1}");
