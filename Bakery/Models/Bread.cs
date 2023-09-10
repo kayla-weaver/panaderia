@@ -5,18 +5,23 @@ namespace Bakery.Models
   {
     public int numBread;
     public int numFreeBread;
+    public int Bread1 {get; set;}
+    public int Bread2 {get; set;}
+    testBread.Bread1 = 5;
+    testBread.bread2 = 10;
 
-    public Bread(totalCost)
+    public Bread(int quantity, int numFreeBread)
     {
-      totalCost = (numBread- numFreeBread) *5;
+      numBread = quantity;
+      numFreeBread = numBread / 3 * 1;
     }
     public string CheckType()
     {
-      return "We will see?";
+      return "Total Cost";
     }
   // public int numBread = 10;
   // public int numFreeBread = numBread / 3 * 1;
   // public int totalCost = (numBread - numFreeBread ) * 5;
   // Console.WriteLine("Total cost: $" +totalCost);
-  // }
+  }
 }
