@@ -1,4 +1,8 @@
-public class Bread
+namespace Bakery.Models
 {
-  // Code for Triangle business logic will go here.
+
+  public class Bread
+  {
+  // Code for Bread business logic will go here.
+  }
 }
