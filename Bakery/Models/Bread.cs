@@ -10,15 +10,14 @@ namespace Bakery.Models
 
     public Bread(int Quantity, int numFreeBread)
     {
-      numBread = Quantity;
-      numBread / 3 * 1 = numFreeBread;
+      this.numBread = Quantity;
+      this.numFreeBread = (this.numBread / 3 * 1);
     }
-    public string CheckType()
-    {
-      return "Total Cost";
-    }
+    // public string CheckType()
+    // {
+    //   return "Total Cost";
+    // }
   // public int numBread = 10;
-  // public int numFreeBread = numBread / 3 * 1;
   // public int totalCost = (numBread - numFreeBread ) * 5;
   // Console.WriteLine("Total cost: $" +totalCost);
   }
