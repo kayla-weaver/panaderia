@@ -8,17 +8,14 @@ namespace Bakery.Models
     public int Bread1 {get; set;}
     public int Bread2 {get; set;}
 
-    public Bread(int Quantity, int numFreeBread)
+    public Bread(int Quantity)
     {
-      this.numBread = Quantity;
-      this.numFreeBread = (this.numBread / 3 * 1);
+      numBread = Quantity;
+      numFreeBread = (numBread / 3 * 1);
     }
-    // public string CheckType()
-    // {
-    //   return "Total Cost";
-    // }
-  // public int numBread = 10;
-  // public int totalCost = (numBread - numFreeBread ) * 5;
-  // Console.WriteLine("Total cost: $" +totalCost);
+    public string CheckType()
+    {
+      return "Total Cost";
+    }
   }
 }

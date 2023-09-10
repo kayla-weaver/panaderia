@@ -3,15 +3,16 @@ using Bakery.Models;
 
 namespace Bakery
 {
-
   class Program
   {
   static void Main()
     {
-      Bread testBread = new Bread(9,3);
+      Bread testBread = new Bread(9);
       Console.WriteLine($"You asked for: {testBread.numBread} loaves of bread");
-      Console.WriteLine("Calculating your total...");
-      Console.WriteLine($"Your total today will be: {testBread.NumFreeBread} we hope you enjoy your breads!");
+      Console.WriteLine("Calculating how many free loaves...");
+      Console.WriteLine($"Today you will recieve {testBread.numFreeBread} loaves of bread for free!");
+      Console.WriteLine("Calculating cost....");
+      Console.WriteLine($"Your total is {(testBread.numBread-testBread.numFreeBread)* 5} dollars");
     }
   }
 }
