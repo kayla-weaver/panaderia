@@ -20,6 +20,11 @@ This will allow user to calculate their cost at the bakery
 3. In the command line, run the command "dotnet run" to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
 4. Optionally, you can run "dotnet build" to compile this console app without running it.
 
+To run tests:
+1. CD into Bakery.Tests
+2. Type in dotnet test
+3. This will run all of the tests from PastryTest.cs and Breadtest.cs
+
 ## Known Bugs
 
 * No known bugs!
