@@ -13,13 +13,13 @@ namespace Bakery.Tests
       Assert.AreEqual(typeof(Pastry), myPastry.GetType());
     }
 
-    // [TestMethod]
-    // public void BreadPrice_CalculatesCostOfBreadOrder_int()
-    // {
-    //   Bread myBread = new Bread(1);
-    //   int price = myBread.BreadPrice();
-    //   Assert.AreEqual(5, price);
-    // }
+    [TestMethod]
+    public void PastryPrice_CalculatesCostOfPastryOrder_int()
+    {
+      Pastry myPastry = new Pastry(1);
+      int price = myPastry.PastryPrice();
+      Assert.AreEqual(2, price);
+    }
 
     // [TestMethod]
     // public void BreadPrice_CalculatesCostOfBreadOrderForMoreThanOneBread_int()
