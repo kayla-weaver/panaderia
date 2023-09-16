@@ -7,7 +7,7 @@ namespace Bakery
   {
   static void Main()
     {
-
+      Console.WriteLine("Welcome to my all Vegan bakery! We have a special on bread and pastries today. Bread is $5 for one loaf and every three loaves are free! Pasties are $2 each and every fourth pastry is free. The more you buy, the more you save!");
       Console.WriteLine("How many loaves of bread would you like?");
       int userNumberOfLoaves = int.Parse(Console.ReadLine());
       Console.WriteLine("How many pastries would you like?");
