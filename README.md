@@ -1,6 +1,6 @@
-# (Money Moves)
+# (Bakery)
 
-#### (You will be able to enter an amount in USD and get an output of convesions)
+#### (You will be able to order bread and pastries and get a price returned)
 
 #### By (Kayla Weaver)
 
