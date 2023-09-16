@@ -1,8 +1,8 @@
-# (Bakery)
+# Bakery
 
-#### (You will be able to order bread and pastries and get a price returned)
+#### You will be able to order bread and pastries and get a price returned
 
-#### By (Kayla Weaver)
+#### By Kayla Weaver
 
 ## Technologies Used
 
