@@ -21,21 +21,21 @@ namespace Bakery.Tests
       Assert.AreEqual(2, price);
     }
 
-    // [TestMethod]
-    // public void BreadPrice_CalculatesCostOfBreadOrderForMoreThanOneBread_int()
-    // {
-    //   Bread myBread = new Bread(2);
-    //   int price = myBread.BreadPrice();
-    //   Assert.AreEqual(10, price);
-    // }
+    [TestMethod]
+    public void PastryPrice_CalculatesCostOfPastryOrderForMoreThanOnePastry_int()
+    {
+      Pastry myPastry = new Pastry(2);
+      int price = myPastry.PastryPrice();
+      Assert.AreEqual(4, price);
+    }
 
-    // [TestMethod]
-    // public void BreadPrice_CalculatesCostOfBreadOrderForThreeBreads_int()
-    // {
-    //   Bread myBread = new Bread(3);
-    //   int price = myBread.BreadPrice();
-    //   Assert.AreEqual(10, price);
-    // }
+    [TestMethod]
+    public void PastryPrice_CalculatesCostOfBreadOrderForThreePastry_int()
+    {
+      Pastry myPastry = new Pastry(4);
+      int price = myPastry.PastryPrice();
+      Assert.AreEqual(6, price);
+    }
 
     // [TestMethod]
     // public void BreadPrice_CalculatesCostOfBreadOrderForSevenBreads_int()
