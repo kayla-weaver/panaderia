@@ -30,20 +30,20 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void PastryPrice_CalculatesCostOfBreadOrderForThreePastry_int()
+    public void PastryPrice_CalculatesCostOfPastryOrderForFourPastry_int()
     {
       Pastry myPastry = new Pastry(4);
       int price = myPastry.PastryPrice();
       Assert.AreEqual(6, price);
     }
 
-    // [TestMethod]
-    // public void BreadPrice_CalculatesCostOfBreadOrderForSevenBreads_int()
-    // {
-    //   Bread myBread = new Bread(7);
-    //   int price = myBread.BreadPrice();
-    //   Assert.AreEqual(25, price);
-    // }
+    [TestMethod]
+    public void PastryPrice_CalculatesCostOfPastryOrderForSevenPastry_int()
+    {
+      Pastry myPastry = new Pastry(7);
+      int price = myPastry.PastryPrice();
+      Assert.AreEqual(12, price);
+    }
   }
 
 
