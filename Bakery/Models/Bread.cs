@@ -3,8 +3,6 @@ namespace Bakery.Models
 
   public class Bread
   {
-    // public int numBread;
-    // public int numFreeBread;
     public int numBread {get; set;}
     public int numFreeBread {get; set;}
 
