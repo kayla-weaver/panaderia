@@ -3,10 +3,10 @@ namespace Bakery.Models
 
   public class Bread
   {
-    public int numBread;
-    public int numFreeBread;
-    // public int numBread {get; set;}
-    // public int numFreeBread {get; set;}
+    // public int numBread;
+    // public int numFreeBread;
+    public int numBread {get; set;}
+    public int numFreeBread {get; set;}
 
     public Bread(int Quantity)
     {
@@ -14,13 +14,10 @@ namespace Bakery.Models
       numFreeBread = (numBread / 3 * 1);
     }
 
-    public int GetNumBread()
+    public int BreadPrice()
     {
-      return numBread;
-    }
-    public string CheckType()
-    {
-      return "Total Cost";
+      int totalCost = (5 * numBread) - (5 * numFreeBread);
+      return totalCost;
     }
   }
 }
